@@ -8,3 +8,4 @@ contentOfCategories.forEach(elem => {
        console.log('Elements:', elem.lastElementChild.children.length);
 
 });
+
