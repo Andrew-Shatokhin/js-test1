@@ -12,3 +12,21 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+const gallery = document.querySelector('.gallery')
+console.log(gallery);
+gallery.classList.add('js-ul')
+
+const markupGallery = images.map(img => {
+  const image = document.createElement('img');
+  image.classList.add('js-img')
+  image.setAttribute('src', img.url);
+  return image
+})
+const li = document.createElement('li');
+li.classList.add('js-li')
+
+
+
+li.append(...markupGallery);
+gallery.append(li);
+console.log(gallery);

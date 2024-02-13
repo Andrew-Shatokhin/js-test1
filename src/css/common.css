@@ -27,3 +27,17 @@ button {
   text-decoration: underline;
   text-shadow: #FC0 1px 0 10px;
 }
+.js-ul {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+/* .js-li {
+  ;
+} */
+
+.js-img {
+  width: 300px;
+  margin: 10px
+}
