@@ -28,6 +28,7 @@ button {
   text-shadow: #FC0 1px 0 10px;
 }
 .js-ul {
+  list-style: none;
   display: flex;
   justify-content: space-between;
   
