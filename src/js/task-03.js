@@ -26,6 +26,19 @@
   
 // }
 // console.log(count([1, 2, 3]))
-const arr1 = [2, 4, 6, 8];
-const arr2 = arr1.forEach(el => {console.log(el*2)});
-console.log(arr2)
+// const arr1 = [2, 4, 6, 8];
+// const arr2 = arr1.forEach(el => {console.log(el*2)});
+// console.log(arr2)
+const btnClick1 = document.querySelector(".btn1");
+const btnClick2 = document.querySelector(".btn2");
+
+console.log(btnClick1);
+const clickFunction = function () {
+  console.log("click by clg")
+  btnClick2.addEventListener('click', (e) => {
+    console.log(e);
+    console.log("click on btn2")
+  })
+
+};
+btnClick1.addEventListener('click', clickFunction)
