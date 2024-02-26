@@ -35,8 +35,8 @@ const btnClick2 = document.querySelector(".btn2");
 console.log(btnClick1);
 const clickFunction = function () {
   console.log("click by clg")
-  btnClick2.addEventListener('click', (e) => {
-    console.log(e);
+  btnClick2.addEventListener('click', (event) => {
+    console.log(event);
     console.log("click on btn2")
   })
 
